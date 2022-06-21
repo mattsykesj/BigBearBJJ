@@ -1,12 +1,13 @@
 {{ define "main" }}
-
-<h1>{{ .Title }}</h1>
-{{ range .Pages.ByPublishDate.Reverse }}
-<p>
-  <a class="font-125" href="{{ .RelPermalink }}"><b>{{ .Title }}</b></a>
-  <br>
-  {{ partial "tags.html" . }}
-</p>
-{{ end }}
+<div class="d-flex justify-content-center flex-column text-center pt-3">
+  <h1>{{ .Title }}</h1>
+  {{ range .Pages.ByPublishDate.Reverse }}
+  <p>
+    <a class="font-125" href="{{ .RelPermalink }}"><b>{{ .Title }}</b></a>
+    <br>
+    {{ partial "tags.html" . }}
+  </p>
+  {{ end }}
+</div>
 
 {{ end }}
