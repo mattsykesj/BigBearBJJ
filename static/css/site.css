@@ -1,0 +1,57 @@
+  #banner-image{
+    width:100%;
+    height:50vh;
+}  
+ 
+#banner-container{
+    width:100%;
+}   
+
+#mailchimp-container{
+    width:50%;
+}   
+
+
+
+body{
+    background-color: #F28157;
+}
+
+nav a{
+    color: #212529 !important;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #732119 !important;
+    text-shadow: 0px 0px 0px black;
+}
+
+#social-icons a{
+    color: #212529 !important;
+    text-decoration: none;
+}
+
+#social-icons a:hover{
+    color: #732119 !important;
+}
+
+a{
+    color: #212529 !important;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #732119 !important;
+}
+
+.btn:hover{
+    color:#F28157 !important;
+}
+
+.social-icon{
+    width:30px;
+    height:30px;
+}
+
+

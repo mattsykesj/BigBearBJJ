@@ -1,0 +1,20 @@
+{{ define "main" }}
+    <!-- <h1>{{.Title}}</h1>
+    <p class="font-125">{{ .Site.Params.homeText | markdownify }}</p> -->
+    <div class="d-flex justify-content-center align-content-center mt-4 flex-column" id="banner-container">
+        <div class="flex-fill mx-auto" id="banner-container">
+            <img id="banner-image" src="img/bigbearBJJ.svg">
+        </div>
+        <div class="flex-fill mx-auto" id="mailchimp-container">
+            {{ partial "mailchimp.html"}}
+        </div>
+    </div>
+    
+    <div class="d-flex justify-content-center bd-highlight" id="social-icons">
+        <a href="#"><div class="p-2 bd-highlight"><i class="social-icon" data-feather="facebook"></i></div></a> 
+        <a href="#"><div class="p-2 bd-highlight"><i class="social-icon" data-feather="instagram"></i></div></a> 
+        <a href="#"><div class="p-2 bd-highlight"><i class="social-icon" data-feather="twitter"></i></div></a> 
+        <a href="#"><div class="p-2 bd-highlight"><i class="social-icon" data-feather="youtube"></i></div></a> 
+
+    </div>
+{{end}}
