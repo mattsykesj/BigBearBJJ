@@ -4,5 +4,7 @@
     <br><br>
     {{.Content}}
     <br><br>
-    {{ partial "disqus.html" . }}
+    <div id="discuss-container" class="mx-auto">
+        {{ partial "disqus.html" . }}
+    </div>
 {{end}}
