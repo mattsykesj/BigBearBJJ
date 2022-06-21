@@ -2,7 +2,7 @@ baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'Big Bear BJJ'
 enableRobotsTXT = true
-disqusShortname = 'disqus_QUNH68KTBd'
+disqusShortname = 'bigbearbjj'
 
 [sitemap]
   changefreq = 'monthly'
